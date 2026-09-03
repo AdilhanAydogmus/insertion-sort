@@ -14,7 +14,7 @@ def insertion_sort(dataInput):
 
     end = time.perf_counter()
     process_time = end - start
-    return data, f"\nThis process took {process_time:.6f} seconds."
+    return data, process_time
 
 
 if __name__ == "__main__":
